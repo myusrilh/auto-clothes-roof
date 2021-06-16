@@ -18,7 +18,8 @@ DHT dht(D7, DHTTYPE);
 const char *ssid = "IT";
 const char *password = "dirumahaja";
 
-const char *mqtt_server = "ec2-52-90-233-156.compute-1.amazonaws.com";
+// const char *mqtt_server = "ec2-100-26-40-148.compute-1.amazonaws.com";
+const char *mqtt_server = "ec2-54-147-187-160.compute-1.amazonaws.com";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
